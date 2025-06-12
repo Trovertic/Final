@@ -76,7 +76,7 @@ class Minesweeper:
                 self.check_connected(y, x, visited)
             elif self.gridprediction[y][x] == 10:
                 self.toggle(y, x)
-                print("Lose")
+                self.info_text.set("You hit a bomb :c")
             else:
                 self.toggle(y, x)
 
