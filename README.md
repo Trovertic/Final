@@ -1,10 +1,5 @@
 # Puzzle Pal
 #### Video: <url>
-
- Hello, this is my final project for cs50. I was unsure about what I should do for said project. At first, I wanted to try and make a webapp but have learned that web dev is not my friend. But after some time pondering, I decided that I could learn a new UI instead and went with tkinter instead.
-
-To help sharpen my programming skill I decided to make Puzzle Pal! A small showcase of recreated puzzle games to pass your time with. To me it sounded like a great way to work on my problem-solving skills while also learning more about UI.
-
 ### Main.py
 This is the heart of the project and where tkinter’s mainloop is created. A simple interface to navigate the recreated games within. There wasn't much thought that when into this part of the project. I just wanted a place to keep everything tied together.
 
