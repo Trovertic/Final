@@ -46,11 +46,11 @@ class SudokuSolver:
 
         # Create buttons for solve and reset
         solve = ttk.Button(self.mainframe, text="Solve")
-        solve.grid(column=3, row=0)
+        solve.grid(column=0, row=3)
         solve["command"] = self.update_grid
 
         reset = ttk.Button(self.mainframe, text="Reset")
-        reset.grid(column=3, row=2)
+        reset.grid(column=2, row=3)
         reset["command"] = self.reset
 
         self.info = StringVar()

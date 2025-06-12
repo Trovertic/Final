@@ -21,3 +21,6 @@ After finishing Vault Cracker I figured I would go ahead and remake the original
 
 ### Lights Puzzle
 Lights out is a puzzle where you have a grid of buttons typically 3x3 – 5x5 where some buttons are lite up and others are dark. The goal is to turn off every light in the puzzle. The trick is when you toggle a light, it will also turn on or off surrounding lights in a cross pattern if possible. To do this I first created a 5x5 grid of buttons and created separate functions for toggling the light as well as clicking the button to check the surrounding area. If a button is found around the clicked button, then it will toggle said light, easy as that. Once all the lights are off you win!
+
+### Minesweeper
+This one was just an extra I did for fun, I wanted to see if after making the prior widgets I would be able to make something similar to Minesweeper and I think I did well enough.

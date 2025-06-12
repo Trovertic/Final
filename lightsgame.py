@@ -22,7 +22,7 @@ class LightsGame:
         self.text_container = StringVar()
         self.text_label = ttk.Label(self.mainframe, textvariable=self.text_container)
 
-        ttk.Label(self.mainframe, text="Turn on all the lights to win!", padding="10 10 10 10").grid(column=self.size + 2, row=0)
+        ttk.Label(self.mainframe, text="Turn off all the lights to win!", padding="10 10 10 10").grid(column=self.size + 2, row=0)
 
         self.new_game()
 
@@ -121,7 +121,7 @@ class LightsGame:
     def check_win(self):
         for row in self.buttons:
             for button in row:
-                if button["background"] != self.ON:
+                if button["background"] != self.OFF:
                     return False
         
         self.text_container.set("You Win!")
